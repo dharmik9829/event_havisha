@@ -3,10 +3,25 @@
 
 <head>
   <meta charset="utf-8">
-  <title>TheEvent - Bootstrap Event Template</title>
+  <title>Havisha Events -  Let's Celebrate</title>
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <meta content="" name="keywords">
-  <meta content="" name="description">
+  <meta name="keywords" content="havisha event, wedding event management, corporate event management, havisha entertainment, event management, havisha events gujarat, best event management company in india" >
+  <meta name="description" content="We are Havisha Events - the best event management company in india, serving our customer the event management they deserve."/>
+  <meta name="author" content="Dharmik Gohil">
+
+  <meta property="og:title" content="Havisha Events - one of the best event management company operating in india" />
+  <meta property="og:site_name" content="Havisha Events" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:type" content="website" />
+  <meta property="og:description" content="We are havisha events, we try to deliver best event management experience for our clients with new methodology and time management" />
+  <meta property="og:url" content="http://www.havishaevents.com/" />
+  <meta property="og:image" content="./img/havisha.svg" />
+  <meta property="og:image:width" content="400" />
+  <meta property="og:image:height" content="400" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Havisha Events" />
+  <meta name="twitter:image" content="./img/havisha.svg" />
+  <meta name="twitter:description" content="We are havisha events, we try to deliver best event management experience for our clients with new methodology and time management" />
 
   <!-- Favicons -->
   <link href="img/havisha.svg" rel="icon">
@@ -27,180 +42,341 @@
   <!-- Main Stylesheet File -->
   <link href="css/style.css" rel="stylesheet">
 
-  <!-- =======================================================
-    Theme Name: TheEvent
-    Theme URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
+  <style>
+        /* Three columns side by side */
+    .column {
+      float: left;
+      border-radius: 4px;
+      width: 33.3%;
+      margin-bottom: 16px;
+      padding: 0 8px;
+    }
+
+   
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+
+    .teamDetails {
+      padding: 0 16px;
+    }
+
+    .teamDetails{
+      padding-bottom: 20px;
+    }
+
+    .teamDetails h2{
+      color: rgb(204, 173, 0);
+      padding-top: 8px;
+    }
+
+    .teamDetails::after, .row::after {
+      content: "";
+      clear: both;
+      display: table;
+      color: darkgoldenrod;
+    }
+
+    .title {
+      color: grey;
+    }
+
+    .button {
+      border: none;
+      outline: 0;
+      display: inline-block;
+      padding: 8px;
+      color: white;
+      background-color: #000;
+      text-align: center;
+      cursor: pointer;
+      width: 100%;
+    }
+
+
+    .button:hover {
+      background-color: #555;
+    }
+    
+    .flexbox{
+      display: flex;
+      box-shadow: 4px 3px 15px rgba(0,0,0,0.2);
+      padding: 20px 10px;
+    }
+
+    .chooseDetails{
+      width: 33%;
+    }
+
+
+    .chooseDetails .number{
+      font-size: 2rem;
+      color: rgb(195, 166, 0);
+    }
+
+    .chooseDetails p{
+      font-size: 1.2rem;
+      text-align: center;
+    }
+
+     @media screen and (max-width: 650px) {
+      .column {
+        width: 100%;
+        display: block;
+      }
+ 
+      .flexbox{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+      }
+
+      .flexbox .chooseDetails{
+        margin-bottom: 20px;
+      }
+    }
+
+    .mt-25{
+      margin-top:2.5rem;
+    }
+
+    .director img{
+      border-radius: 50%;
+    }
+
+    .director-name{
+      font-size: 1.5rem;
+    }
+  </style>
 </head>
 
 <body>
 
-  <!--==========================
-    Header
-  ============================-->
   <header id="header">
     <div class="container">
 
-      <div id="logo" class="pull-left">
-        <!-- Uncomment below if you prefer to use a text logo -->
-        <!-- <h1><a href="#main">C<span>o</span>nf</a></h1>-->
-        <a href="#intro" class="scrollto"><img src="img/logos/transperent.png" alt="" title=""></a>
-      </div>
+      <aside id="logo" class="pull-left">
+        <a href="./index.html" class="scrollto"><img src="img/logos/transperent.png" alt="havisha events logo" title="havisha events let's celebrate"></a>
+      </aside >
+
 
       <nav id="nav-menu-container">
         <ul class="nav-menu">
-          <li class="menu-active"><a href="#intro">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#gallery">Gallery</a></li>
-          <li><a href="#contact">Contact</a></li>
-          <!-- <li class="buy-tickets"><a href="#buy-tickets">Buy Tickets</a></li> -->
+          <li class="menu-active"><a href="./index.html">Home</a></li>
+          <li><a href="./about.html">About</a></li>
+          <li><a href="./services.html">Services</a></li>
+          <li><a href="./talent_bank.html">Talent Bank</a></li>
+          <li><a href="./#gallery">Gallery</a></li>
+          <li><a href="./#team">Team</a></li>
+          <li><a href="./#contact">Contact US</a></li>
         </ul>
-      </nav><!-- #nav-menu-container -->
+      </nav>
     </div>
-  </header><!-- #header -->
+  </header>
 
-  <!--==========================
-    Intro Section
-  ============================-->
   <section id="intro">
     <div class="intro-container wow fadeIn">
-      <h1 class="mb-4 pb-0">Havisha <span>Entertainment</span></h1>
+      <h1 class="mb-4 pb-0">Havisha <span>Events</span></h1>
       <p class="mb-4 pb-0"><span class="font-18">Let's Celebrate!</span> </p>
-      <a href="https://youtu.be/-ryZWvIvSrI" class="venobox play-btn mb-4" data-vbtype="video"
+      <a href="#" class="venobox play-btn mb-4" data-vbtype="video"
         data-autoplay="true"></a>
     </div>
   </section>
 
   <main id="main">
 
-    <!--==========================
-      About Section
-    ============================-->
     <section id="about">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12">
-            <h2 class="uppercase">About us</h2>
-              <p class="font-1">In a period where we are progressively overwhelmed with our data and experience also it’s trying to get a message over, ‘Havisha Entertainment’ adopts an insightful and aesthetic strategy to create critical encounters that work up feelings, discussions, and shareable minutes. We make our clients as well as guests audience memorable time to celebrate on their huge occasions.</p>
-
+      <article class="container">
+        <section class="row">
+          <section class="col-lg-12">
+            <header><h2 class="uppercase">About us</h2></header>
+              <p class="font-1">Welcome to <em>Havisha Events</em>, a leading event management company dedicated to creating unforgettable experiences for our clients. We specialize in planning and executing a wide range of events, including weddings, corporate events, and celebrity events.</p>
+              
               <p class="font-1">
-                ‘Havisha Entertainment’ has some expertise in delivering inventive, advanced, and bleeding-edge events, utilizing a center conviction that is narrating drives our innovative methodology. Established by pioneers in the diversion and event generation industry with broad specialized aptitude. ‘Havisha Entertainment’ is known for organizing & managing events on private sector as well as public sector. We are also into collaboration with actors as well as social influencer across india. 
+                At <em>Havisha Events</em>, we understand that planning an event can be a daunting task, which is why we are here to help. Our team of experienced event planners will work with you from start to finish to ensure that your event is a success. We take the time to get to know our clients and their needs, so that we can create an event that truly reflects their vision and achieves their goals.
               </p>
 
-              <p class="font-1">‘Havisha Entertainment’ ‘is assorted group likewise incorporates foundations in theater, media, and brand promoting. Through its profound experience and innumerable preparations, ‘Havisha Entertainment’ comprehends that to genuinely connect with a visitor, thoughts must be completely acknowledged down to the littlest detail.  </p>
-          </div>
-        </div>
-      </div>
+              <p class="font-1">We are  <em>Havisha Events</em>  pride ourselves on our attention to detail, creativity, and personalized service. We understand that every event is unique and requires a tailored approach. That's why we offer a variety of services to meet the specific needs of each of our clients, from full-service event planning to day-of coordination.</p>
+          </section>
+        </section>
+      </article>
     </section>
 
     <!--==========================
       Speakers Section
     ============================-->
     <section id="speakers" class="wow fadeInUp">
-      <div class="container">
-        <div class="section-header">
-          <h2>OUR SERVICES</h2>
+      <main class="container">
+        <header class="section-header">
+          <h2>Havisha Event's SERVICES</h2>
           <p>Let's celebrate!</p>
-        </div>
+        </header>
 
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
+        <section class="row">
+          <section class="col-lg-4 col-md-6">
+            <article class="speaker">
               <img class="text-align" src="img/services/wedding.png" alt="wedding event management" class="img-fluid">
-              <h2 class="service-heading">Wedding Events</h2>
+              <h2 class="service-heading">Wedding Event Management</h2>
               <p class="service-desc">
-                Havisha entertainment work to celebrate your precious day. Celebrate your new phase of your life with luxuries way. Havisha entertainment has qualified and experienced team who make sure your wedding day feels like dream comes true. We make sure that there are no chances  A wedding day is most special day for couple as the first <span id="dots1">...</span><span id="more1">of getting any error. <br><br> day they are getting together. We work tirelessly to make your wedding beautiful and a great memorable day of your life also not it is not only for couple but also family, friends and relatives who are going to be a part of your wedding. There is no space for mistakes and mismanagement and for that we will help you to plan and manage it perfectly. We take responsibility right from pre-wedding events to wedding feast and more. 
-              </span>
-            </p>
+                Welcome to  Havisha Events  , the premier wedding event management firm for couples seeking a stress-free and memorable wedding experience. Our team of expert wedding planners has years of experience in planning and executing beautiful weddings, from small and intimate affairs to grand and luxurious celebrations.
+
+                <br>
+
+                At  Havisha Events  , we understand that your wedding day is one of the most important days of your life, and we are dedicated to making sure that every detail is perfect. We offer a variety of services to meet your needs and budget, from full-service event planning to day-of coordination.
+
+                <br>
+                Our services include: <br>
+
+                Full-Service Wedding Planning: Our team will work with you from start to finish to plan every detail of your wedding, from choosing the perfect venue to selecting vendors, managing budgets, and overseeing the event on the day of.
+
+                <br>
+
+                Partial Wedding Planning: For couples  <span id="dots1">...</span><span id="more1">who have already started planning their wedding but need additional help, we offer partial wedding planning services. Our team will step in to assist with any remaining tasks and ensure everything runs smoothly on the day of the event.
+
+                <br>
+
+                Day-Of Coordination: For couples who have already planned their wedding but want to relax and enjoy their special day, we offer day-of coordination services. Our team will manage vendors, oversee the timeline, and ensure that everything runs smoothly so that you can focus on enjoying your wedding.
+
+                <br>
+
+                At Havisha Events , we pride ourselves on our attention to detail, creativity, and personalized service. We work closely with our clients to ensure that their wedding reflects their vision and style, and we are committed to making every wedding we plan an unforgettable experience.
+
+                Contact us today to schedule a consultation and learn more about how we can help make your wedding day a dream come true.
+                </span>
+              </p>
               <button data-id="1" class="myBtn" id="myBtn1">Read more</button>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
+            </article>
+          </section>
+          <section class="col-lg-4 col-md-6">
+            <article class="speaker">
               <img class="text-align" src="img/services/corporate.png" alt="corporate event management" class="img-fluid">
-              <h2 class="service-heading">Corporate Events</h2>
+              <h2 class="service-heading">Corporate Event Management</h2>
               <p class="service-desc">
-                Havisha entertainment is also known for its corporate relationships and events. We organize private as well as corporate events to the companies who care and value their employees also wants to give some entertainment and organize some rewards and recognition event from their hectic and target oriented work atmosphere and<span id="dots2">...</span><span id="more2">we assure their concern by delivering joy and motivated work atmosphere for empowering and growing business.</span> 
+                Welcome to <em> Havisha Events </em> , the premier corporate event management firm for businesses seeking to host successful and impactful events. Our team of experienced event planners understands the importance of a well-executed event, and we are dedicated to making sure that every detail is perfect.
+
+                  At <em> Havisha Events </em> , we specialize in planning and executing a wide range of corporate events, including conferences, product launches, trade shows, team building events, and more. We offer a variety of services to meet the unique needs of each of our clients, from full-service event planning to day-of coordination.
+                  <br>
+                  Our services include:
+                  <br>
+
+                    Full-Service Event Planning: Our team will work with you from start to finish to plan every detail of your event, from selecting the perfect venue and managing budgets to coordinating with vendors and overseeing the event on the day of.
+
+                    <br>
+                    Partial Event Planning: For clients <span id="dots2">...</span><span id="more2"> who have already started planning their event but need additional help, we offer partial event planning services. Our team will step in to assist with any remaining tasks and ensure everything runs smoothly on the day of the event.
+
+                    <br>
+                    Day-Of Coordination: For clients who have already planned their event but want to focus on enjoying the day, we offer day-of coordination services. Our team will manage vendors, oversee the timeline, and ensure that everything runs smoothly so that you can focus on your guests.
+
+                    <br>
+                    At  <em> Havisha Events </em> , we pride ourselves on our attention to detail, creativity, and personalized service. We work closely with our clients to ensure that their event reflects their vision and achieves their business goals. We are committed to making every event we plan a success.
+
+                    Contact us today to schedule a consultation and learn more about how we can help make your corporate event a success. </span>
               </p>
               <button data-id="2" class="myBtn" id="myBtn2">Read more</button>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="speaker">
+            </article>
+          </section>
+          <section class="col-lg-4 col-md-6">
+            <article class="speaker">
               <img class="text-align" src="img/services/celebrity.png" alt="celebrity event management" class="img-fluid">
-              <h2 class="service-heading">Celebrity Management</h2>
+              <h2 class="service-heading">Celebrity Event Management</h2>
               <p class="service-desc">
-                ‘Havisha Entertainment’ expertise collaborating, organizing & managing multiple events like live concert, award functions, inauguration events, music concerts, guest appearance, corporate branding as well as advertising. We have all arrangement from setting up event till closing set up. We manage venue, marketing, <span id="dots3">...</span><span id="more3">celebrity schedules, ticket booking, public arrangement, vendor tie ups. We also have team who manage & sponsor corporate companies by giving social media, multimedia press marketing, print marketing, electronic media marketing by celebrity and also meet and greet with celebrity. </span>
+                Welcome to <em> Havisha Events </em>, the premier celebrity event management firm for clients seeking to host unforgettable and glamorous events. Our team of experienced event planners specializes in creating high-end events that leave a lasting impression on guests.
+
+                <br>
+                At <em>Havisha Events </em>, we understand that hosting a celebrity event requires a unique set of skills and experience. Our team has worked with some of the biggest names in the entertainment industry and is dedicated to making sure that every detail of your event is perfect.
+                <br>
+                Our services include:
+                <br>
+                Full-Service Event Planning: Our team will  work with you from start to finish to plan every detail of your event, from selecting the perfect venue and managing budgets to coordinating with<span id="dots3">...</span><span id="more3">vendors and overseeing the event on the day of. We have experience planning events such as movie premieres, award shows, and high-end galas.
+                <br>
+                Talent Management: We offer talent management services to ensure that your event has the perfect celebrity appearance.   Our team has strong relationships with celebrities and their representatives and can help you secure the ideal talent for your event.
+                  <br>
+                Public Relations: We offer public relations services to help you promote your event to the media and increase its exposure. Our team can work with you to develop a comprehensive public relations plan that will generate buzz and excitement for your event.
+
+                At <em> Havisha Events </em> , we pride ourselves on our attention to detail, creativity, and personalized service. We work closely with our clients to ensure that their event reflects their vision and achieves their goals. We are committed to making every event we plan a memorable experience.
+
+                Contact us today to schedule a consultation and learn more about how we can help make your celebrity event a success.
+                </span>
               </p>
               <button data-id="3" class="myBtn" id="myBtn3">Read More</button>
-            </div>
-          </div>
+            </article>
+          </section>
 
-        </div>
-      </div>
+        </section>
+      </main>
 
     </section>
 
     <!--==========================
       Gallery Section
     ============================-->
-    <section id="gallery" class="wow fadeInUp">
+    <article id="gallery" class="wow fadeInUp">
 
       <div class="container">
-        <div class="section-header">
-          <h2>Arrange Events with Stars</h2>
-          <!-- <p>Check our gallery from the recent events</p> -->
+        <header class="section-header">
+          <h2>Havisha Event's Celebrity Gallery</h2>
         </div>
-      </div>
+      </header>
 
-      <div class="owl-carousel gallery-carousel">
-        <a href="img/gallery/1.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.png" alt=""></a>
-        <a href="img/gallery/2.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.png" alt=""></a>
-        <a href="img/gallery/3.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.png" alt=""></a>
-        <a href="img/gallery/4.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.png" alt=""></a>
-        <a href="img/gallery/5.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.png" alt=""></a>
-        <a href="img/gallery/6.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.png" alt=""></a>
-        <a href="img/gallery/7.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.png" alt=""></a>
-        <a href="img/gallery/8.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.png" alt=""></a>
-      </div>
+      <section class="owl-carousel gallery-carousel">
+        <a href="img/gallery/1.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/1.png" alt="havisha event's director photo with south actor"></a>
+        <a href="img/gallery/2.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/2.png" alt="havisha event's director photo with tv serial artist"></a>
+        <a href="img/gallery/3.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/3.png" alt="havisha event's director photo with Vindu Dara Singh"></a>
+        <a href="img/gallery/4.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/4.png" alt="havisha event's director photo with mika singh(punjabi singer)"></a>
+        <a href="img/gallery/5.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/5.png" alt="havisha event's director photo with Anu Malik(Indian musical composer
+          )"></a>
+        <a href="img/gallery/6.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/6.png" alt="havisha event's director photo with the legendary actor amitabh bachhan"></a>
+        <a href="img/gallery/7.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/7.png" alt="havisha event's director photo with Salman Khan"></a>
+        <a href="img/gallery/8.png" class="venobox" data-gall="gallery-carousel"><img src="img/gallery/8.png" alt="havisha event's director photo with salman Khan and its crew"></a>
+      </section>
 
-    </section>
+    </article>
 
     <!-- tab component -->
-    <div class="container">
+    <section class="container">
       <h2 class="section-header common-heading">Gallery</h2>
 
       <!-- Tab links -->
-        <div class="tab">
+        <header class="tab">
           <button class="tablinks active" onclick="openCity(event, 'tab3')">Celebrity Management</button>
           <button class="tablinks" onclick="openCity(event, 'tab1')">Wedding Events</button>
           <button class="tablinks" onclick="openCity(event, 'tab2')">Corporate Events</button>
-        </div>
+        </header>
 
         <!-- Tab content -->
-        <div id="tab1" class="tabcontent">
-          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/2.jpg" alt="">
-          <img class="galleryImg" src="./img/venue-gallery/3.jpg" alt="">
-          <img class="galleryImg" src="./img/venue-gallery/4.jpg" alt="">
-          <img class="galleryImg" src="./img/venue-gallery/5.jpg" alt="">
-          <img class="galleryImg" src="./img/venue-gallery/6.jpg" alt="">
-          <img class="galleryImg" src="./img/venue-gallery/7.jpg" alt="">
-          <img class="galleryImg" src="./img/venue-gallery/8.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/9.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/10.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/11.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/12.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/13.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/14.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/15.jpg" alt=""> 
-          <img class="galleryImg" src="./img/venue-gallery/16.jpg" alt=""> 
-          
-         
-          
-        </div>
+        <section id="tab1" class="tabcontent">
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/2.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo">
+          <img class="galleryImg" src="./img/venue-gallery/3.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo">
+          <img class="galleryImg" src="./img/venue-gallery/4.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo">
+          <img class="galleryImg" src="./img/venue-gallery/5.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo">
+          <img class="galleryImg" src="./img/venue-gallery/6.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo">
+          <img class="galleryImg" src="./img/venue-gallery/7.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo">
+          <img class="galleryImg" src="./img/venue-gallery/8.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/9.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/10.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/11.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/12.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/13.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/14.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/15.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+          <img class="galleryImg" src="./img/venue-gallery/16.jpg" 
+          <img class="galleryImg" src="./img/venue-gallery/1.jpg" alt="havisha event's wedding management photo"> 
+        </section>
 
         <div class="clearfix"></div>
         <!-- The Modal -->
@@ -210,229 +386,252 @@
           <div id="caption"></div>
         </div>
 
-        <div id="tab2" class="tabcontent">
+        <section id="tab2" class="tabcontent">
 
-          <img class="galleryImg" src="./img/services/corporate/1.jpg" alt=""> 
-          <img class="galleryImg" src="./img/services/corporate/2.jpeg" alt="">
-          <img class="galleryImg" src="./img/services/corporate/3.jpeg" alt="">
-          <img class="galleryImg" src="./img/services/corporate/5.jpg" alt="">
-          <img class="galleryImg" src="./img/services/corporate/7.jpg" alt="">
-          <img class="galleryImg" src="./img/services/corporate/6.jpg" alt="">
+          <img class="galleryImg" src="./img/services/corporate/1.jpg" alt="havisha event's corporate event management photo"> 
+          <img class="galleryImg" src="./img/services/corporate/2.jpeg" alt="havisha event's corporate event management photo">
+          <img class="galleryImg" src="./img/services/corporate/3.jpeg" alt="havisha event's corporate event management photo">
+          <img class="galleryImg" src="./img/services/corporate/5.jpg" alt="havisha event's corporate event management photo">
+          <img class="galleryImg" src="./img/services/corporate/7.jpg" alt="havisha event's corporate event management photo">
+          <img class="galleryImg" src="./img/services/corporate/6.jpg" alt="havisha event's corporate event management photo">
           
-        </div>
+        </section>
 
-        <div id="tab3" class="tabcontent flex"> 
-          <img class="galleryImg" src="./img/services/celibrity/1.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/2.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/3.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/4.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/5.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/6.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/7.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/8.jpg" alt="">
-          <img class="galleryImg" src="./img/services/celibrity/9.jpg" alt="">
-        </div>
-    </div>
+        <section id="tab3" class="tabcontent flex"> 
+          <img class="galleryImg" src="./img/services/celibrity/1.jpg" alt="bollywood film actors and actoress group image">
+          <img class="galleryImg" src="./img/services/celibrity/2.jpg" alt="Aishwarya Rai Bachchan's and Deepika Padukone in ramp walk">
+          <img class="galleryImg" src="./img/services/celibrity/3.jpg" alt="bollywood artist's group photo">
+          <img class="galleryImg" src="./img/services/celibrity/4.jpg" alt="shahrukh khan and Katrina Kaif performing in award show">
+          <img class="galleryImg" src="./img/services/celibrity/5.jpg" alt="indian tv shows artists group image of three person">
+          <img class="galleryImg" src="./img/services/celibrity/7.jpg" alt="Arijit Singh at live concert playing guitar image - singer">
+          <img class="galleryImg" src="./img/services/celibrity/8.jpg" alt="Arijit Singh smiling - singer">
+          <img class="galleryImg" src="./img/services/celibrity/9.jpg" alt="darshan rawal - singer">
+        </section>
+    </section>
       
-    <!--==========================
-      Sponsors Section
-    ============================-->
-    <section id="supporters" class="section-with-bg wow fadeInUp">
-
-      <div class="container">
-        <div class="section-header">
-          <h2>Sponsors</h2>
-        </div>
-
-        <div class="row no-gutters supporters-wrap clearfix">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/2.png" class="img-fluid" alt="">
-            </div>
-          </div>
+   <!-- team -->
+   <section class="container" id="team" style="margin-top:50px">
+    <h2 class="section-header common-heading">Havisha Event's Team Members</h2>
+     <main class="row">
+       <section class="column">
+         <section class="card">
+           <img src="./img/directors/d2.jpg" alt="havisha event's(name:- Maulik rajguru) director photo" style="width:100%">
+           <section class="teamDetails">
+             <h2 class="director-name">Maulik Rajguru</h2>
+             <p class="title">Director</p>
+             <a href="tel:123-456-7890">123-456-7890</a>
+            </section>
+          </section>
+        </section>
         
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/5.png" class="img-fluid" alt="">
-            </div>
-          </div>
+        <section class="column">
+          <section class="card">
+            <img src="./img/directors/d3.jpg" alt="havisha event's(name:- Purushottam Kumar Dubey) director photo"  style="width:100%">
+            <section class="teamDetails">
+              <h2 class="director-name">Purushottam Kumar Dubey</h2>
+              <p class="title">Director</p>
+              <a href="tel:123-456-7890">123-456-7890</a>
+            </section>
+          </section>
+        </section>
         
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="supporter-logo">
-              <img src="img/supporters/8.png" class="img-fluid" alt="">
-            </div>
-          </div>
+        <section class="column">
+        <section class="card">
+          <img src="./img/directors/d1.jpg" alt="havisha event's(name:- Bharat Nag) director photo" style="width:100%">
+          <section class="teamDetails">
+            <h2 class="director-name">Bharat Nag</h2>
+            <p class="title">Director</p>
+            <a href="tel:123-456-7890">123-456-7890</a>
+          </section>
+        </section>
+      </section>
+    </main>
+  </section>
 
-        </div>
 
-      </div>
+  <article id="supporters" class="section-with-bg wow fadeInUp">
+    <main class="container">
+      <header class="section-header">
+        <h2>Havisha Event's Past client </h2>
+      </header>
+      <article class="row no-gutters supporters-wrap clearfix">
+        <section class="col-lg-3 col-md-4 col-xs-6">
+          <section class="supporter-logo">
+            <img src="img/logos/arbaaz_khan.jpg" class="img-fluid" alt="">
+          </section>
+        </section>
+        <section class="col-lg-3 col-md-4 col-xs-6">
+          <section class="supporter-logo">
+            <img src="img/logos/salman_khan.png" class="img-fluid" alt="">
+          </section>
+        </section>
+        <section class="col-lg-3 col-md-4 col-xs-6">
+          <section class="supporter-logo">
+            <img src="img/logos/ibm.jpg" class="img-fluid" alt="">
+          </section>
+        </section>
+      </article>
+    </main>
+  </article>
 
-    </section>
 
-  
-    <!--==========================
-      Subscribe Section
-    ============================-->
+  <section>
+    <header>
+      <h2 style="text-align: center; margin-top: 20px; font-weight: 700; font-size: 2.5rem;">Director's Note</h2>
+    </header>
+
+    <article class="container">
     <section id="subscribe">
-      <div class="container wow fadeInUp">
-        <div class="section-header">
-          <h2>Newsletter</h2>
-          <p>Rerum numquam illum recusandae quia mollitia consequatur.</p>
-        </div>
-
-        <form method="POST" action="#">
-          <div class="form-row justify-content-center">
-            <div class="col-auto">
-              <input type="text" class="form-control" placeholder="Enter your Email">
-            </div>
-            <div class="col-auto">
-              <button type="submit">Subscribe</button>
-            </div>
-          </div>
-        </form>
-
-      </div>
+      <article class="container wow fadeInUp">
+        <article class="section-header director">
+          <section style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; width: 45%;">  
+            <img style="width: 100%;" id="profile" src="./img/directors/d2.jpg" alt="havisha event's director image(name:- Maulik Rajguru)">
+            <p style="text-align: center; font-size: 1.4rem;">Maulik Rajguru</p>
+          </section>
+          <p>At <em> Havisha Events </em>, we understand that planning an event can be a stressful and overwhelming experience. That's why we're here to help. Our team of experienced event planners is dedicated to making the planning process as smooth and stress-free as possible. We will work with you every step of the way, from the initial consultation to the day of the event, to ensure that your vision is brought to life.
+          </p>
+        </article>
+      </article>
     </section>
+    </article>
 
-    <!--==========================
-      Contact Section
-    ============================-->
+    <article class="container mt-25">
+    <section id="subscribe">
+      <article class="container wow fadeInUp">
+        <article class="section-header director">
+          <p>At <em> Havisha Events </em> ,  We pride ourselves on our attention to detail, creativity, and personalized service. We understand that every event is unique and requires a tailored approach. That's why we take the time to get to know our clients and their needs, so that we can create an event that truly reflects their vision and achieves their goals.
+          </p>
+          <section style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px; width: 50%;">  
+            <img style="width: 90%;" id="profile" src="./img/directors/d3.jpg" alt="havisha event's director image(name:- Purushottam Dubey)">
+            <p style="text-align: center; font-size: 1.4rem;"> Purushottam Dubey</p>
+          </section>
+        </article>
+      </article>
+    </section>
+    </article>
+
+    <article class="container mt-25">
+    <section id="subscribe">
+      <article class="container wow fadeInUp">
+        <article class="section-header director">
+          <section style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 20px;">  
+            <img style="width: 60%;" id="profile" src="./img/directors/d1.jpg" alt="havisha event's director image(name:- bharat nag)">
+            <p style="text-align: center; font-size: 1.4rem;">Bharat Nag</p>
+          </section>
+          <p>At  <em> Havisha Events </em> , we are committed to staying up-to-date with the latest event industry trends and technologies, to ensure that we provide our clients with the best possible service. We have experience planning a wide range of events, from small and intimate gatherings to grand and luxurious celebrations.
+          </p>
+        </article>
+      </article>
+    </section>
+    </article>
+  </section>
+
+    <article class="container" style="margin-top:30px; margin-bottom: 30px;">
+      <h2 class="section-header common-heading">Why should you select Havisha Events?</h2>
+      <main class="chooseContainer">
+        <section class="flexbox">
+          <article class="chooseDetails">
+            <p class="number">58+</p>
+            <p>Wedding Events</p>
+          </article>
+          <article class="chooseDetails">
+            <p class="number">243+</p>
+            <p>Corporate Events</p>
+          </article>
+          <article class="chooseDetails">
+            <p class="number">122+</p>
+            <p>Celebrity Management</p>
+          </article>
+        </section>
+      </main>
+    </article>
+
     <section id="contact" class="section-bg wow fadeInUp">
-
-      <div class="container">
-
-        <div class="section-header">
+      <section class="container">
+        <header class="section-header">
           <h2>Contact Us</h2>
-          <p>Let our professional help you to arrange your next event</p>
-        </div>
+          <h3 style="text-align: center;">Let Havisha Event help you to arrange your next event</h3>
+        </header>
 
-        <div class="row contact-info">
+        <section class="row contact-info">
 
-          <div class="col-md-4">
+          <section class="col-md-4">
             <div class="contact-address">
               <i class="ion-ios-location-outline"></i>
               <h3>Address</h3>
               <address>Ahmedabad Gujarat, India</address>
             </div>
-          </div>
+          </section>
 
-          <div class="col-md-4">
+          <section class="col-md-4">
             <div class="contact-phone">
               <i class="ion-ios-telephone-outline"></i>
               <h3>Phone Number</h3>
               <p><a href="tel:+918511363589">+91 85113 63589</a></p>
             </div>
-          </div>
+          </section>
 
-          <div class="col-md-4">
+          <section class="col-md-4">
             <div class="contact-email">
               <i class="ion-ios-email-outline"></i>
               <h3>Email</h3>
               <p><a href="mailto:havishaentertainment@gmail.com.com">havishaentertainment@gmail.com</a></p>
             </div>
-          </div>
+          </section>
 
-        </div>
+        </section>
 
-        <div class="form">
-          <div id="sendmessage">Your message has been sent. Thank you!</div>
-          <div id="errormessage"></div>
+        <section class="form">
+          <p id="sendmessage">Your message has been sent. Thank you!</p>
+          <p id="errormessage"></p>
           <form action="" method="post" role="form" class="contactForm">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
-                <div class="validation"></div>
-              </div>
-              <div class="form-group col-md-6">
+            <section class="form-row">
+              <section class="form-group col-md-6">
+                <input type="text" name="your name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars" />
+                <section class="validation"></section>
+              </section>
+              <section class="form-group col-md-6">
                 <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email" />
-                <div class="validation"></div>
-              </div>
-            </div>
-            <div class="form-group">
+                <section class="validation"></section>
+              </section>
+            </section>
+
+            <section class="form-group">
               <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" data-rule="minlen:4" data-msg="Please enter at least 8 chars of subject" />
               <div class="validation"></div>
-            </div>
-            <div class="form-group">
+            </section>
+            <section class="form-group">
               <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="Please write something for us" placeholder="Message"></textarea>
               <div class="validation"></div>
-            </div>
-            <div class="text-center"><button type="submit">Send Message</button></div>
+            </section>
+            <aside class="text-center"><button type="submit">Send Message</button></aside>
           </form>
-        </div>
-
-      </div>
-    </section><!-- #contact -->
-
+        </section>
+      </section>
+    </section>
   </main>
 
-
-  <!--==========================
-    Footer
-  ============================-->
   <footer id="footer">
-    <div class="footer-top">
-      <div class="container">
-        <div class="row">
+    <section class="footer-top">
+      <section class="container">
+        <section class="row">
+          <article class="col-lg-3 col-md-6 footer-info">
+            <img src="img/logos/transperent.png" alt="havisha event's transperent logo">
+            <h3 class="weare">We are Havisha Events</h3>
+          </article>
 
-          <div class="col-lg-3 col-md-6 footer-info">
-            <img src="img/logos/transperent.png" alt="TheEvenet">
-            <p>In alias aperiam. Placeat tempore facere. Officiis voluptate ipsam vel eveniet est dolor et totam porro. Perspiciatis ad omnis fugit molestiae recusandae possimus. Aut consectetur id quis. In inventore consequatur ad voluptate cupiditate debitis accusamus repellat cumque.</p>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-links">
+          <section class="col-lg-6 col-md-6 footer-links">
             <h4>Useful Links</h4>
             <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="./">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="./#about">About us</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="./services.html">Services</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
               <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
             </ul>
-          </div>
+          </section>
 
-          <div class="col-lg-3 col-md-6 footer-links">
-            <h4>Useful Links</h4>
-            <ul>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Home</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">About us</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Services</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Terms of service</a></li>
-              <li><i class="fa fa-angle-right"></i> <a href="#">Privacy policy</a></li>
-            </ul>
-          </div>
-
-          <div class="col-lg-3 col-md-6 footer-contact">
+          <section class="col-lg-3 col-md-6 footer-contact">
             <h4>Contact Us</h4>
             <p>
               Ahmedabad <br>
@@ -446,42 +645,32 @@
                <br>
             </p>
 
-            <div class="social-links">
+            <aside class="social-links">
               <a href="#" class="twitter"><i class="fa fa-twitter"></i></a>
               <a href="#" class="facebook"><i class="fa fa-facebook"></i></a>
               <a href="#" class="instagram"><i class="fa fa-instagram"></i></a>
               <a href="#" class="google-plus"><i class="fa fa-google-plus"></i></a>
               <a href="#" class="linkedin"><i class="fa fa-linkedin"></i></a>
-            </div>
+            </aside>
 
-          </div>
+          </section>
+      </section>
+    </section>
 
-        </div>
-      </div>
-    </div>
-
-    <div class="container">
-      <div class="copyright">
-        &copy; Copyright <strong>TheEvent</strong>. All Rights Reserved
-      </div>
-      <div class="credits">
-        <!--
-          All the links in the footer should remain intact.
-          You can delete the links only if you purchased the pro version.
-          Licensing information: https://bootstrapmade.com/license/
-          Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=TheEvent
-        -->
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
-      </div>
-    </div>
-  </footer><!-- #footer -->
+    <section class="container">
+      <article class="copyright">
+        &copy; Copyright  <strong>Havisha Events</strong>. All Rights Reserved
+      </article>
+      <article class="credits">
+      </article>
+    </section>
+  </footer>
 
   <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
 
   <!-- JavaScript Libraries -->
   <script src="lib/jquery/jquery.min.js"></script>
   <script src="lib/jquery/jquery-migrate.min.js"></script>
-  <script src="lib/bootstrap/js/bootstrap.bundle.min.js"></script>
   <script src="lib/easing/easing.min.js"></script>
   <script src="lib/superfish/hoverIntent.js"></script>
   <script src="lib/superfish/superfish.min.js"></script>
@@ -491,6 +680,9 @@
 
   <!-- read more -->
   <script src="./js/readmore.js"></script>
+
+  <!-- drop down -->
+  <script src="./js/dropdown.js"></script>
 
   <!-- image gallery -->
   <script src="./js/image-gallery.js"></script>
@@ -503,3 +695,5 @@
 </body>
 
 </html>
+
+    
